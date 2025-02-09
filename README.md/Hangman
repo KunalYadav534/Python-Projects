@@ -1,0 +1,25 @@
+Introduction
+Hangman is a word guessing game where players try to guess a word by suggesting letters. 
+A correct guess reveals the letter's position in the word, 
+while an incorrect guess brings the player closer to losing.
+
+
+
+
+Usage
+To play the game, simply run the hangman.py script in your terminal. You will be prompted to guess letters one at a time.
+
+The game will display the word as a series of underscores (e.g., _ _ _ _ _).
+You will input your guess (a single letter at a time).
+The game will either reveal the guessed letter's position in the word or show an incorrect guess.
+Keep guessing until you either guess the word correctly or run out of attempts.
+
+
+
+
+Game Rules
+The game will start by displaying a series of underscores representing the hidden word.
+You will have 6 incorrect guesses before you lose the game.
+For each incorrect guess, a part of the hangman will be drawn (head, body, arms, and legs).
+You win if you guess the word correctly before running out of guesses.
+You lose if the entire hangman is drawn before you guess the word.
